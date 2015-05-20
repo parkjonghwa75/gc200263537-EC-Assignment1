@@ -10,78 +10,87 @@
 namespace Assignment1 {
     
     
-    public partial class _default {
+    public partial class Game {
         
         /// <summary>
-        /// lblGame1 control.
+        /// pnlGame control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGame1;
+        protected global::System.Web.UI.WebControls.Panel pnlGame;
         
         /// <summary>
-        /// game1 control.
+        /// lblResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Assignment1.Game game1;
+        protected global::System.Web.UI.WebControls.Label lblResult;
         
         /// <summary>
-        /// lblGame2 control.
+        /// rdlResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGame2;
+        protected global::System.Web.UI.WebControls.RadioButtonList rdlResult;
         
         /// <summary>
-        /// game2 control.
+        /// lblPointsScored control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Assignment1.Game game2;
+        protected global::System.Web.UI.WebControls.Label lblPointsScored;
         
         /// <summary>
-        /// lblGame3 control.
+        /// txtPointsScored control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGame3;
+        protected global::System.Web.UI.WebControls.TextBox txtPointsScored;
         
         /// <summary>
-        /// game3 control.
+        /// lblPointsAllowed control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Assignment1.Game game3;
+        protected global::System.Web.UI.WebControls.Label lblPointsAllowed;
         
         /// <summary>
-        /// lblGame4 control.
+        /// txtPointsAllowed control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGame4;
+        protected global::System.Web.UI.WebControls.TextBox txtPointsAllowed;
         
         /// <summary>
-        /// game4 control.
+        /// lblSpectators control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Assignment1.Game game4;
+        protected global::System.Web.UI.WebControls.Label lblSpectators;
+        
+        /// <summary>
+        /// txtSpectators control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSpectators;
     }
 }
