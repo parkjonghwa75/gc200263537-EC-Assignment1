@@ -1,9 +1,11 @@
 ﻿using System;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+
 
 namespace Assignment1
 {
@@ -91,6 +93,9 @@ namespace Assignment1
                             else
                                 numberOfLosts += 1;
 
+                            //Title display
+                            lblSummaryTitle.Text = "Result";
+
                             //Calculation of # of games won
                             lblNumberOfWins.Text = "Number of games won: " + numberOfWins.ToString();
 
@@ -137,9 +142,9 @@ namespace Assignment1
                 }// end of validation check - radio button list 
 
             } // end of try
-            catch
+            catch (Exception ex)
             {
-                lblTotalPointsScored.Text = "Please input numeric value";
+                lblTotalPointsScored.Text = "Numeric value error.";
             } // end of catch
 
         } // end of submit_Click

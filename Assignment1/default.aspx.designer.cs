@@ -13,6 +13,15 @@ namespace Assignment1 {
     public partial class _default {
         
         /// <summary>
+        /// lblSummaryTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSummaryTitle;
+        
+        /// <summary>
         /// lblNumberOfWins control.
         /// </summary>
         /// <remarks>
@@ -83,6 +92,15 @@ namespace Assignment1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblAverageSpectators;
+        
+        /// <summary>
+        /// Table1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table1;
         
         /// <summary>
         /// lblGame1 control.
