@@ -4,9 +4,9 @@
     <div>
         <!-- A radio button list for Result.  Choices are Win / Lose. -->
         <asp:Label ID="lblResult" runat="server" Text="Result: "></asp:Label>
-        <asp:RadioButtonList ID="rdlResult" runat="server">
-            <asp:ListItem Value="Win" Text="Win"></asp:ListItem>
-            <asp:ListItem Value="Lose" Text="Lose"></asp:ListItem>
+        <asp:RadioButtonList ID="rblResult" runat="server">
+            <asp:ListItem Value="1" Text="Win"></asp:ListItem>
+            <asp:ListItem Value="0" Text="Lose"></asp:ListItem>
         </asp:RadioButtonList>
     </div>
     <div>
