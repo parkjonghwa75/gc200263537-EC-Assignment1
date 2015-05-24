@@ -4,6 +4,31 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <!--Display summary information below-->
+    <div>
+        <asp:Label ID="lblNumberOfWins" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Red"></asp:Label>
+    </div>
+    <div>
+        <asp:Label ID="lblNumberOfLosts" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Red"></asp:Label>
+    </div>
+    <div>
+        <asp:Label ID="lblWinningRate" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Red"></asp:Label>
+    </div>
+    <div>
+        <asp:Label ID="lblTotalPointsScored" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Red"></asp:Label>
+    </div>
+    <div>
+        <asp:Label ID="lblTotalPointsAllowed" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Red"></asp:Label>
+    </div>
+    <div>
+        <asp:Label ID="lblPointsDifferential" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Red"></asp:Label>
+    </div>
+    <div>
+        <asp:Label ID="lblTotalSpectators" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Red"></asp:Label>
+    </div>
+    <div>
+        <asp:Label ID="lblAverageSpectators" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Red"></asp:Label>
+    </div>
     <div>
         <!--Game 1-->
         <asp:Label ID="lblGame1" runat="server" Text="Game 1" Font-Bold="True" Font-Size="Large"></asp:Label>
@@ -31,29 +56,5 @@
     </div>
 
 
-    <!--Display summary information below-->
-    <div>
-        <asp:Label ID="lblNumberOfWins" runat="server"></asp:Label>
-    </div>
-    <div>
-        <asp:Label ID="lblNumberOfLosts" runat="server"></asp:Label>
-    </div>
-    <div>
-        <asp:Label ID="lblWinningRate" runat="server"></asp:Label>
-    </div>
-    <div>
-        <asp:Label ID="lblTotalPointsScored" runat="server"></asp:Label>
-    </div>
-    <div>
-        <asp:Label ID="lblTotalPointsAllowed" runat="server"></asp:Label>
-    </div>
-    <div>
-        <asp:Label ID="lblPointsDifferential" runat="server"></asp:Label>
-    </div>
-    <div>
-        <asp:Label ID="lblTotalSpectators" runat="server"></asp:Label>
-    </div>
-    <div>
-        <asp:Label ID="lblAverageSpectators" runat="server"></asp:Label>
-    </div>
+
 </asp:Content>
