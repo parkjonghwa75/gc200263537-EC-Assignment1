@@ -17,7 +17,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lblTitle" runat="server" Text="Game Calculator" CssClass="text-uppercase"></asp:Label>
+            <asp:Label ID="lblTitle" runat="server" Text="Game Calculator" CssClass="text-uppercase" Font-Size="XX-Large"></asp:Label>
         </div>
         <div>
             <asp:Label ID="lblTitleDescription" runat="server" Text="Enterprise Computing Assignment#1" CssClass="text-primary"></asp:Label>
